@@ -110,7 +110,7 @@ Report*</strong></code>, кликнув по которому, откроетс�
 >- [x] <code><strong>*EXECUTORS*</strong></code> - отображает исполнителя текущей сборки (ссылка на сборку в Jenkins)
 
 <p align="center">
-  <img src="images/screens/Alure_Report3.png" alt="Allure Report" width="900">
+  <img src="images/screens/Allure_Report3.png" alt="Allure Report" width="900">
 </p>
 
 ## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
