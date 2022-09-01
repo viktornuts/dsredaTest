@@ -1,4 +1,4 @@
-# Проект по автоматизации тестирования сайта beeline.ru
+# Проект по автоматизации тестирования сайта dasreda.ru
 
 ## :page_with_curl:	Содержание
 
@@ -51,10 +51,10 @@
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UI
 
 > - [x] *Проверка дашборда главной страницы*
->- [x] *Проверка текста раздела 'Все способы оплаты' для 'Домашний телефон'*
->- [x] *Проверка отображения страницы 'Стать абонентом билайн тв' (PajeObj)*
->- [x] *Проверка стоимости золотого номера*
->- [x] *Проверка стоимости тарифов*
+>- [x] *Проверка текста раздела 'Открыть бизнес'*
+>- [x] *Проерка текста алертов(подсказок) при регистрации (PajeObj)*
+>- [x] *Проверка работы калькулятора НДС (начислить НДС)*
+>- [x] *Проверка разедла Видео, что в нем присутствует видео 'Как сэкономить время и деньги для своего дела'*
 
 ## :computer: Запуск тестов из терминала 
 
@@ -83,7 +83,7 @@ gradle clean test
 >
 > <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты (_по умолчанию - <code>1920x1080</code>_).
 
-## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/HhRuJenkinsJob/)
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/DSredaJenkinsJob/)
 
 *Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать*</strong></code>.*
 
@@ -95,7 +95,7 @@ gradle clean test
 значок <img width="2%" title="Allure Report" src="images/logo/Allure.svg"><code><strong>*Allure
 Report*</strong></code>, кликнув по которому, откроется страница с сформированным html-отчетом.*
 
-## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/HhRuJenkinsJob/allure/)
+## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/DSredaJenkinsJob/allure/)
 
 ### :pushpin: Общая информация
 
