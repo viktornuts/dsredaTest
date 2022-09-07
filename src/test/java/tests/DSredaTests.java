@@ -17,7 +17,6 @@ import static org.hamcrest.CoreMatchers.is;
 
 public class DSredaTests extends TestBase {
 
-    public String token = "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJWaWt0b3JudXRzQEdtYWlsLmNvbSIsIm5iZiI6MTY2MjQ4MTMwMCwicm9sZXMiOlsiYjJiLnVzZXIiLCJjb3Vyc2VzLnVzZXIiLCJldmVudHMudXNlciIsImV4cGVydHMudXNlciIsInJiby51c2VyIiwic3VydmV5LnVzZXIiLCJ0cmFqZWN0LnVzZXIiLCJ1bmktYmxvZy51c2VyIiwidW5pLWNvbW1lbnRzLnVzZXIiLCJ1bmktZGVsaXZlcnkgLnVzZXIiLCJ1bmktbG1zLnN0dWRlbnQiLCJ1bmktcGF5bWVudHMudXNlciIsInVuaS1yYXRpbmdzLnVzZXIiLCJ1bmktc29jaWFsLnVzZXIiLCJ1bmktc3RvcmFnZS51c2VyIiwidW5pLXZpZGVvLnVzZXIiXSwiaXNzIjoiaHR0cHM6XC9cL3Nzby5kYXNyZWRhLnJ1IiwiaWQiOjE5MTM1MzgsImV4cCI6MTY2MzM0NTMwMCwiaWF0IjoxNjYyNDgxMzAwLCJqdGkiOiI2YjQwOGU5My02ODU1LTQ2MzQtODk0ZS1lNmIwOWFlNWI2Y2YifQ.R5Se-OztIno2HBmFoHCMudo8z1mwjFzeSbTS0eUgqxrB384hSkhItReFIVev-7BxQ97x-JY0uhNasEC8V18QrKthrqFaYk9IBuCG2BwHf_rowf-zF_xIUM_AKoKOizwSnkH9t7MqptB3hprzUHabFkK-gROcsQnprEMvSlEY1solNKiEPHtaNpGWks-uHx01BJzV9vk6fB9vej9_wLPUeWk29WTzPZB-n6Ylh-UMmihmEnEsB1Gfx0nT-2_6dj6_LB_Q9MAM_L_qYLIojNO0t-YSpUYza--611juFqN_7LITlMug3fKixv-p8YRCoPCdroPjlbaOHDGhqIypL6LDUA";
     StartPage startPage = new StartPage();
     RegistrationPage registrationPage = new RegistrationPage();
 
@@ -29,7 +28,7 @@ public class DSredaTests extends TestBase {
         });
 
         step("check dashboard", () -> {
-            $(".sc-1ngb3td.cqdeDj").shouldBe(visible).shouldHave(text("Персональные данные: какие изменения учесть компаниям с 1 сентября"));
+            $(".sc-jRQBWg.sc-1rd2md3.gjmuaX.fBFSxG").shouldBe(visible);
         });
     }
 
