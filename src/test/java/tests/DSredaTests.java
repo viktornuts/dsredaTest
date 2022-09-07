@@ -1,8 +1,5 @@
 package tests;
 
-import apiClasses.RootVarClass;
-import apiClasses.VariablesData;
-import io.restassured.http.ContentType;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
@@ -12,8 +9,6 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.CoreMatchers.is;
 
 public class DSredaTests extends TestBase {
 
